@@ -12716,6 +12716,7 @@ h5,
   -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  z-index: 1;
 }
 
 .services-1 .icon {
@@ -14075,6 +14076,17 @@ textarea.form-control {
   margin-top: -2em;
   padding-top: 2em;
   border-radius: 12px;
+  background-color: orange;
+}
+
+.services-1:hover #audio-services {
+  height: 350px;
+  width: 150%;
+  z-index: 999999;
+  opacity: 1;
+  margin-top: -2em;
+  padding-top: 2em;
+  border-radius: 12px;
 }
 
 .services-1 {
@@ -14210,8 +14222,9 @@ textarea.form-control {
 
   .services-1:hover #audio-services {
     width: calc(99% + 4em);
-    margin-top: -1em;
+    margin-top: -2em;
     border-radius: 12px;
+    height: 125%;
   }
 }
 

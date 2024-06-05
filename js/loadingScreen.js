@@ -19,16 +19,30 @@ document.getElementById('hireme-btn').addEventListener('click', function() {
     });
 });
 
-document.addEventListener('mousemove', function(e) {
-    const cursor = document.getElementById('custom-cursor');
-    cursor.style.left = `${e.clientX}px`;
-    cursor.style.top = `${e.clientY}px`;
-});
+function isMobileDevice() {
+    return typeof window.orientation !== "undefined" || navigator.userAgent.indexOf('IEMobile') !== -1;
+}
 
-document.body.addEventListener('mouseenter', function() {
-    document.getElementById('custom-cursor').style.display = 'block';
-});
+if (!isMobileDevice()) {
+    document.addEventListener('mousemove', function(e) {
+        const cursor = document.getElementById('custom-cursor');
+        cursor.style.left = `${e.clientX}px`;
+        cursor.style.top = `${e.clientY}px`;
+        cursor.style.display = 'block'; // Show custom cursor on mouse move
+    });
 
-document.body.addEventListener('mouseleave', function() {
-    document.getElementById('custom-cursor').style.display = 'none';
-});
+    const button = document.getElementById('my-button');
+
+    // Hide custom cursor when hovering over the button
+    button.addEventListener('mouseenter', function() {
+        document.getElementById('custom-cursor').style.display = 'none';
+    });
+
+    // Show custom cursor when not hovering over the button
+    button.addEventListener('mouseleave', function() {
+        document.getElementById('custom-cursor').style.display = 'block';
+    });
+} else {
+    // Hide the default cursor for mobile devices
+    document.body.style.cursor = 'default';
+}
