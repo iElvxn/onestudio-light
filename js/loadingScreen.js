@@ -6,11 +6,11 @@ setTimeout(() => {
     loadingScreen.style.zIndex = 0;
     document.body.style.overflow = 'auto';
     document.body.style.touchAction = 'auto';
-},5000);//5000
+},0);//5000
 
 setTimeout(() => {
     loadingScreen.style.opacity = '0'
-},4700);//4700
+},0);//4700
 
 
 document.getElementById('hireme-btn').addEventListener('click', function() {
