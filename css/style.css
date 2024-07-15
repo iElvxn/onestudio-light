@@ -68,9 +68,10 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000000;
   text-align: left;
-  background-color: #fff;
+  background-color: #ffffff;
+  background: white;
   overflow: hidden;
   touch-action: none;
   position: relative;
@@ -4731,11 +4732,13 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  background-color: white;
 }
 
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: black;
 }
 
 .nav-link:hover,
@@ -4776,7 +4779,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #000000;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -11713,11 +11716,11 @@ a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #000000;
+  background: white;
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999;
+  color: black;
 }
 
 body.menu-show {
@@ -11761,7 +11764,7 @@ h5,
 }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  background: white !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -11771,7 +11774,7 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000000 !important;
+    background: #ffffff !important;
     position: relative;
     top: 0;
     padding-top: 0;
@@ -11817,7 +11820,7 @@ h5,
   padding-bottom: .7rem;
   padding-left: 20px;
   padding-right: 20px;
-  color: #fff;
+  color: black;
   font-weight: 400;
   opacity: 1 !important;
 }
@@ -11870,7 +11873,7 @@ h5,
     padding-right: 0;
     padding-bottom: 1rem;
     padding-top: 0;
-    color: #fff;
+    color: black;
   }
 }
 
@@ -11925,7 +11928,7 @@ h5,
 
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: black !important;
   cursor: none;
   padding-right: 0;
   text-transform: uppercase;
@@ -11946,14 +11949,14 @@ h5,
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #000000 !important;
+  background: #ffffff !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   padding: 0 15px;
 }
 
 .ftco-navbar-light.scrolled .nav-item>.nav-link {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 @media (max-width: 991.98px) {
@@ -12159,7 +12162,7 @@ h5,
   bottom: 0;
   left: 0;
   right: 0;
-  background: #000000;
+  background: white;
   opacity: 0;
 }
 
@@ -12186,7 +12189,7 @@ h5,
   bottom: 0;
   left: 0;
   right: 0;
-  background: #000000;
+  background: #ffffff;
   opacity: 0;
 }
 
@@ -12379,7 +12382,7 @@ h5,
 
 .owl-carousel.home-slider .owl-nav .owl-prev:hover,
 .owl-carousel.home-slider .owl-nav .owl-prev:focus {
-  background: #000000 !important;
+  background: #ffffff !important;
   outline: none !important;
 }
 
@@ -13967,7 +13970,7 @@ textarea.form-control {
 
 .services-subtitle {
   width: 100%;
-  color: white;
+  color: black;
   text-align: left;
   font-weight: 400;
 }
@@ -13979,7 +13982,7 @@ textarea.form-control {
 .mb-4 {
   font-size: 50px;
   font-weight: 500;
-  color: white;
+  color: black;
 }
 
 .hire-title {
