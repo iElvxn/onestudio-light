@@ -13962,7 +13962,7 @@ textarea.form-control {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 75%;
+  width: 70%;
   opacity: .6;
   flex-wrap: wrap;
   flex-direction: row;
@@ -13973,6 +13973,16 @@ textarea.form-control {
   color: black;
   text-align: left;
   font-weight: 400;
+}
+
+#element {
+  font-size: 24px;
+}
+
+@media (max-width: 900px) {
+  #element {
+    font-size: 16px;
+  }
 }
 
 #services-type {
@@ -14235,4 +14245,8 @@ textarea.form-control {
 .cold-md-4 {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+#contact-section {
+  padding: 0;
 }
